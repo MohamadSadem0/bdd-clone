@@ -1,0 +1,63 @@
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+.nav-family {
+  font-family: "TheMixSemiBold-Plain";
+}
+
+.btn-login {
+  height: 40px;
+  width: 112px;
+  background-color: #0078be;
+  line-height: 80px;
+  padding-right: 14px;
+  padding-left: 14px;
+  font-size: 14.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.wdh-100 {
+  width: 100%;
+}
+
+.vh-150 {
+  height: 100%;
+}
+
+.auto-size {
+  height: auto;
+  width: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
