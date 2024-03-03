@@ -80,7 +80,7 @@
 .section-2 > .text-center {
   font-size: 32px;
   font-weight: 600;
-  font-family: "TheMixBlack-Caps", Sans-serif;
+  font-family: "TheMixBlack-Caps", sans-serif;
   line-height: 1.3em;
   color: #212121;
   font-weight: bold;
@@ -110,7 +110,7 @@
   margin-top: 15px;
   text-align: center;
   color: var(--e-global-color-secondary);
-  font-family: "TheMixSemiBold-Plain", Sans-serif;
+  font-family: "TheMixSemiBold-Plain", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
