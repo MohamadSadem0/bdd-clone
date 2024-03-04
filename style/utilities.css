@@ -52,6 +52,9 @@
 .vh-150 {
   height: 100%;
 }
+.vhh-150 {
+  height: 100vh;
+}
 
 .auto-size {
   height: auto;
