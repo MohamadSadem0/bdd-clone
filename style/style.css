@@ -158,13 +158,28 @@
 }
 .details > img {
   max-width: 100%;
-}
-
-img {
-  max-width: 100%;
   height: auto;
 }
 
+.section-4 {
+  position: relative;
+}
+.section-4 {
+  height: 100%;
+  background-image: url("./../imgs/Shared-Space-at-BDD.png");
+  width: 100%;
+}
+.section-4-text {
+  position: absolute;
+  text-transform: uppercase;
+  color: black;
+  font-family: "TheMixBlack-Caps", sans-serif;
+  font-size: 40px;
+  z-index: 12;
+  font-weight: 600;
+}
+
+/* responsiveness  */
 @media (max-width: 768px) {
   .navbar #list {
     display: none;
