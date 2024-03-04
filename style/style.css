@@ -162,23 +162,56 @@
 }
 
 .section-4 {
-  position: relative;
-}
-.section-4 {
-  height: 100%;
+  height: 150vh;
   background-image: url("./../imgs/Shared-Space-at-BDD.png");
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100vw 300vh 300vh;
+  background-position: 50%;
 }
 .section-4-text {
-  position: absolute;
+  color: #ffffff;
+  font-family: "TheMixBlack-Caps", Sans-serif;
+  font-size: 32px;
+  font-weight: 400;
   text-transform: uppercase;
-  color: black;
-  font-family: "TheMixBlack-Caps", sans-serif;
-  font-size: 40px;
-  z-index: 12;
-  font-weight: 600;
+  line-height: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+.section-5 > .container {
+  width: auto;
+}
+.section-5 img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-5 .items {
+  background-image: url("./../imgs/bg-icon.png");
+  margin: 40px;
+  width: 400px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10px;
+
+  flex-direction: column;
+}
+.section-5 .items-text {
+  font-family: "TheMixSemiBold-Plain", Sans-serif;
+  font-size: 16px;
+  display: inline;
+  font-weight: 400;
+  text-align: center;
+}
 /* responsiveness  */
 @media (max-width: 768px) {
   .navbar #list {
